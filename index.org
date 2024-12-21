@@ -1,0 +1,172 @@
+#+title: Universe
+
+* Universe(세계)
+** Philosophy(철학)
+** Promise(약속)
+*** Language(언어)
+desc: 글, 말을 통해 타인과 소통하기 위해 개발한 의사소통 체계
+
+#+begin_quote
+"이건 이렇게 부르자."
+#+end_quote
+
+*** Units(단위)
+**** Base Units(기본단위)
+desc: 국제단위계 SI에서 정의한 기본 단위
+
+***** Length(길이)
+unit: Meter(미터)
+
+****** Meter(미터)
+desc: 빛이 진공 중에서 1/299,792,458초 동안 진행한 거리
+symbol: m
+
+Kilometer(킬로미터),
+Centimeter(센티미터),
+...
+
+******* Kilometer(킬로미터)
+standard: Meter(미터)
+multiplied_by: 1000
+symbol: km
+
+***** Mass(질량)
+unit: Kilogram(킬로그램)
+
+****** Kilogram(킬로그램)
+desc: 국제단위게 SI에서 플랑크 상수와, 여러 상수들을 조합해 만든 중력 에너지
+symbol: kg
+
+Gram(그램)
+
+******* Gram(그램)
+standard: Kilogram(킬로그램)
+multiplied_by: 10^-3
+symbol: g
+
+***** Time(시간)
+symbol: t
+unit: Second(초)
+
+****** Second(초)
+desc: 세슘-133 원자의 특정 방사선 진동수 9,192,631,770의 주기
+symbol: s
+
+Minute(분),
+Hour(시),
+...
+
+******* Minute(분)
+standard: Second(초)
+multiplied_by: 60
+symbol: min
+***** Electric Current(전류)
+symbol: I (quantity)
+unit: Ampere(암페어)
+
+****** Ampere(암페어)
+desc:
+symbol: A
+
+***** Thermodynamic Temperature(온도)
+unit: Kelvin(켈빈)
+
+****** Kelvin(켈빈)
+desc: 볼츠만 상수를 이용해서 만든 온도 단위
+symbol: K
+
+***** Amount of Substance(물질양)
+unit: Mole(몰)
+
+****** Mole(몰)
+desc: 0.012 kg의 carbon-12 속 원자(atom) 개수
+symbol: mol
+
+***** Luminous Intensity(광도)
+unit: Candela(칸델라)
+
+****** Candela(칸델라)
+desc: 540 x 10^12 Hz의 주파수에서 1개의 파장을 가지는  단위
+key_points: 인간은 550 nm 주변의 녹색,노란색 종류의 빛 밖에 보지 못한다.
+symbol: cd
+**** Derived Units(유도단위)
+desc: 국제단위계 SI에서 정의한 기본 단위를 조합해 만든 단위
+
+***** Electric Charge(전하)
+symbol: Q (quantity)
+unit: Coulombs(쿨롱)
+
+****** Coulombs(쿨롱)
+desc:
+symbol: C
+
+**** Prefixes
+
+** Science(과학)
+*** Forces(힘)
+desc: 어떤 물체가 밀어지거나, 당겨지는 현상
+unit: Newton(뉴턴)
+
+**** Electromagnetic(전자기력)
+desc: The force that
+apply_to: photons
+***** phenomenon
+If the electric charge is moving, it creates a magnetic field.
+If the magnetic field is changing, it creates an electric field.
+
+**** Strong(강력)
+apply_to: gluons
+
+**** Weak(약력)
+apply_to: W and Z bosons
+
+**** Gravity(중력)
+apply_to: gravitons
+
+*** Fields(필드)
+**** Matters(물질)
+***** Constituents(구성요소)
+****** Atoms(원자)
+******* Fundamental Particles(기본 입자)
+Subatomic Particles(아원자)
+
+******** Fermion(페르미온)
+********* Lepton(렙톤)
+Electron(전자)
+Muon(뮤온)
+Tau(타우 입자)
+Electron Neutrino(전자 중성미자)
+Muon Neutrino(뮤온 중성미자)
+Tau Neutrino(타우 중성미자)
+
+********* Quark(쿼크)
+Up(업 쿼크)
+Down(다운 쿼크)
+Charm(참 쿼크)
+Strange(스트레인지 쿼크)
+Top(톱 쿼크)
+Bottom(보텀 쿼크)
+
+********* Composite Fermion(복합 페르미온)
+********** Nuclei(원자핵)
+Protons(양성자)
+Neutrons(중성자)
+
+******** Boson(보손)
+********* Gauge Boson(게이지 보손)
+********* Scalar Boson(스칼라 보손)
+********* Hypothetical Boson(가상 보손)
+
+****** Molecules(분자)
+desc: 두개 이상의 원자가 합쳐진 화학결합물
+
+***** Properties(성질)
+****** Electric Charge(전하)
+desc:
+You can't see or touch electric charge directly.
+Instead, you observe its effects.
+
+unit: The magnitude of the charge carried by a single electron or proton. (descrete, 이산, 離散)
+
+******* Positive
+******* Negative
