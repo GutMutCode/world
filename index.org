@@ -2,6 +2,28 @@
 
 * Universe(세계)
 ** Philosophy(철학)
+desc: 인간은 어떻게 살아야 하는가?
+
+*** 인간의 한계는 어디까지 인가?
+**** 우리는 아무것도 확신할 수 없다?
+***** 확신이란 무엇인가?
+부정할 수 없는 믿음
+
+***** 부정할 수 없는 사실
+****** 나는 존재하는가?
+******* 존재란 무엇인가?
+******** 설명할 수 있는 것인가?
+********* 설명할 수 없다면, 존재하지 않는 것 인가?
+
+****** 인간은 현재를 정확히 알 수 있는가?
+
+****** 인간은 과거를 정확히 알 수 있는가?
+
+****** 인간은 미래를 정확히 알 수 없는가?
+******* 정확히 알아야 할까?
+******** 정확히 몰라도, 의미가 있지 않을까?
+********* 정확히 아는 것만이 의미있는 것인가?
+
 ** Promise(약속)
 *** Language(언어)
 desc: 글, 말을 통해 타인과 소통하기 위해 개발한 의사소통 체계
@@ -10,25 +32,26 @@ desc: 글, 말을 통해 타인과 소통하기 위해 개발한 의사소통 �
 "이건 이렇게 부르자."
 #+end_quote
 
+**** 철학
+왜 소통해야하는가?
+
 *** Units(단위)
+- desc: 세상을 수치로 표현하기 위해 정의한 단위
+
+**** 철학
+왜 세상을 수치로 표현해야 하는가?
+
 **** Base Units(기본단위)
-desc: 국제단위계 SI에서 정의한 기본 단위
+- desc: 국제단위계 SI에서 정의한 기본 단위
 
-***** Length(길이)
-unit: Meter(미터)
+***** 변경사항
+=나(김진호)의 편의를 위해 임의로 변경한 사항=
 
-****** Meter(미터)
-desc: 빛이 진공 중에서 1/299,792,458초 동안 진행한 거리
-symbol: m
+****** Length(길이)
+길이는 시간을 기반으로 측정하므로, 길이를 유도단위에 포함
 
-Kilometer(킬로미터),
-Centimeter(센티미터),
-...
-
-******* Kilometer(킬로미터)
-standard: Meter(미터)
-multiplied_by: 1000
-symbol: km
+****** Electric Current(전류)
+전류는 힘을 기반으로, 힘은 질량과 시간을 기반으로 측정하므로, 전류를 유도단위에 포함
 
 ***** Mass(질량)
 unit: Kilogram(킬로그램)
@@ -60,14 +83,6 @@ Hour(시),
 standard: Second(초)
 multiplied_by: 60
 symbol: min
-***** Electric Current(전류)
-symbol: I (quantity)
-unit: Ampere(암페어)
-
-****** Ampere(암페어)
-desc:
-symbol: A
-
 ***** Thermodynamic Temperature(온도)
 unit: Kelvin(켈빈)
 
@@ -86,52 +101,124 @@ symbol: mol
 unit: Candela(칸델라)
 
 ****** Candela(칸델라)
-desc: 540 x 10^12 Hz의 주파수에서 1개의 파장을 가지는  단위
+desc: 540 x 10^12 Hz의 주파수에서 1개의 파장을 가지는 단방향 빛이...
 key_points: 인간은 550 nm 주변의 녹색,노란색 종류의 빛 밖에 보지 못한다.
 symbol: cd
+
 **** Derived Units(유도단위)
-desc: 국제단위계 SI에서 정의한 기본 단위를 조합해 만든 단위
+- desc: 기본 단위를 조합해 만든 단위
+
+***** 변경사항
+=나(김진호)의 편의를 위해 임의로 변경한 사항=
+
+****** Length(길이)
+길이는 시간을 기반으로 측정하므로, 길이를 기본단위에서 추출
+
+****** Electric Current(전류)
+전류는 힘을 기반으로, 힘은 질량과 시간을 기반으로 측정하므로, 전류를 기본단위에서 추출
+
+***** Length(길이)
+unit: Meter(미터)
+
+****** Meter(미터)
+desc: 빛이 진공 중에서 1/299,792,458초 동안 이동한 거리
+symbol: m
+
+Kilometer(킬로미터),
+Centimeter(센티미터),
+...
+
+******* Kilometer(킬로미터)
+standard: Meter(미터)
+multiplied_by: 1000
+symbol: km
+
+***** Electric Current(전류)
+symbol: I (quantity)
+unit: Ampere(암페어)
+
+****** Ampere(암페어)
+desc: 전류가 흐르는 도체 사이의 힘
+symbol: A
+
+******* Official Definition(공식 정의)
+******** Circumstance(상황)
+계산을 단순화하기 위한 조건
+
+********* Conductors(도체) 2개
+- 무한에 가까운 길이
+- 0에 가까운 단면적
+- 도체 간 방향이 평행
+- 도체 간 1m 간격
+
+********* Place(장소)
+- 진공
+
+******** Definition
+해당 상황에서의 정의
+
+********* Amount of Force(힘의 양)
+2 x 10^-7N의 힘을 생성하는 전류의 양
 
 ***** Electric Charge(전하)
 symbol: Q (quantity)
 unit: Coulombs(쿨롱)
 
 ****** Coulombs(쿨롱)
-desc:
+desc: 1초동안 흐른 전류의 양
 symbol: C
 
 **** Prefixes
 
+
 ** Science(과학)
-*** Forces(힘)
+*** 철학
+**** 과학의 목적은 무엇인가?
+***** 인류를 널리 이롭게 하는 것
+나, 남 모두
+
+*** Don't Know(모르는 것)
+**** 철학
+***** 인간의 한계는 어디까지 인가?
+***** 과학에서, 인간의 한계가 중요한 이유는 무엇인가?
+****** 인간은 세상을 100% 이해할 수 있게 태어났을까?
+
+**** Dark Matter(암흑 물질)
+desc: 너무 큰 질량을 가진 물질
+
+**** Dark Energy(암흑 에너지)
+desc: 우주 팽창을 가속화시키는 힘
+
+*** Know(아는 것)
+**** Forces(힘)
 desc: 어떤 물체가 밀어지거나, 당겨지는 현상
 unit: Newton(뉴턴)
 
-**** Electromagnetic(전자기력)
+***** Electromagnetic(전자기력)
 desc: The force that
 apply_to: photons
-***** phenomenon
+****** phenomenon
 If the electric charge is moving, it creates a magnetic field.
 If the magnetic field is changing, it creates an electric field.
 
-**** Strong(강력)
+***** Strong(강력)
 apply_to: gluons
 
-**** Weak(약력)
+***** Weak(약력)
 apply_to: W and Z bosons
 
-**** Gravity(중력)
+***** Gravity(중력)
 apply_to: gravitons
 
-*** Fields(필드)
-**** Matters(물질)
-***** Constituents(구성요소)
-****** Atoms(원자)
-******* Fundamental Particles(기본 입자)
+**** Fields(필드)
+***** Matters(물질)
+****** Constituents(구성요소)
+******* Atoms(원자)
+******** Fundamental Particles(기본 입자)
 Subatomic Particles(아원자)
 
-******** Fermion(페르미온)
-********* Lepton(렙톤)
+********* Fermion(페르미온)
+********** Lepton(렙톤)
 Electron(전자)
 Muon(뮤온)
 Tau(타우 입자)
@@ -139,7 +226,7 @@ Electron Neutrino(전자 중성미자)
 Muon Neutrino(뮤온 중성미자)
 Tau Neutrino(타우 중성미자)
 
-********* Quark(쿼크)
+********** Quark(쿼크)
 Up(업 쿼크)
 Down(다운 쿼크)
 Charm(참 쿼크)
@@ -147,26 +234,34 @@ Strange(스트레인지 쿼크)
 Top(톱 쿼크)
 Bottom(보텀 쿼크)
 
-********* Composite Fermion(복합 페르미온)
-********** Nuclei(원자핵)
+********** Composite Fermion(복합 페르미온)
+*********** Nuclei(원자핵)
 Protons(양성자)
 Neutrons(중성자)
 
-******** Boson(보손)
-********* Gauge Boson(게이지 보손)
-********* Scalar Boson(스칼라 보손)
-********* Hypothetical Boson(가상 보손)
+********* Boson(보손)
+********** Gauge Boson(게이지 보손)
+photon(광자)
+gluon(글루온)
+W boson(W보손)
+Z boson(Z보손)
 
-****** Molecules(분자)
+********** Scalar Boson(스칼라 보손)
+desc: Higgs boson(힉스 보손)
+
+********** Hypothetical Boson(가상 보손)
+desc: graviton(중력자)
+
+******* Molecules(분자)
 desc: 두개 이상의 원자가 합쳐진 화학결합물
 
-***** Properties(성질)
-****** Electric Charge(전하)
+****** Properties(성질)
+******* Electric Charge(전하)
 desc:
 You can't see or touch electric charge directly.
 Instead, you observe its effects.
 
 unit: The magnitude of the charge carried by a single electron or proton. (descrete, 이산, 離散)
 
-******* Positive
-******* Negative
+******** Positive
+******** Negative
