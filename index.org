@@ -23,10 +23,15 @@ desc: 인간은 어떻게 살아야 하는가?
 ******* 정확히 알아야 할까?
 ******** 정확히 몰라도, 의미가 있지 않을까?
 ********* 정확히 아는 것만이 의미있는 것인가?
+********** 모르는 것도, 좋은쪽으로 활용할 수 만 있다면 의미있지 않을까?
 
 ** Promise(약속)
 *** Language(언어)
-desc: 글, 말을 통해 타인과 소통하기 위해 개발한 의사소통 체계
+desc: 타인과 소통하기 위한 약속
+
+목적: 타인과의 원할한 소통
+수단: 인간이 보고, 듣고 느낄 수 있는 모든 것에 이름 붙이고, 이를 사용하고자 약속하기
+한계: 현재 모든 인간이 같은 약속을 사용하지 않는다
 
 #+begin_quote
 "이건 이렇게 부르자."
@@ -36,7 +41,7 @@ desc: 글, 말을 통해 타인과 소통하기 위해 개발한 의사소통 �
 왜 소통해야하는가?
 
 *** Units(단위)
-- desc: 세상을 수치로 표현하기 위해 정의한 단위
+desc: 세상을 수치로 표현하기 위해 정의한 단위
 
 **** 철학
 왜 세상을 수치로 표현해야 하는가?
@@ -72,7 +77,7 @@ symbol: t
 unit: Second(초)
 
 ****** Second(초)
-desc: 세슘-133 원자의 특정 방사선 진동수 9,192,631,770의 주기
+desc: 세슘-133 바닥상태의 원자가 전이시 방출하는 특정 방사선 진동수 9,192,631,770.
 symbol: s
 
 Minute(분),
@@ -132,13 +137,20 @@ Centimeter(센티미터),
 standard: Meter(미터)
 multiplied_by: 1000
 symbol: km
+***** Energy(힘)
+unit: Newton(뉴턴)
+
+****** Newton(뉴턴)
+desc: 질량1kg의 물체에 1 m/s²의 가속도를 발생시키는 힘의 크기
+symbol: N
+formula: E = mc²
 
 ***** Electric Current(전류)
 symbol: I (quantity)
 unit: Ampere(암페어)
 
 ****** Ampere(암페어)
-desc: 전류가 흐르는 도체 사이의 힘
+desc: 전류가 흐르는 도체 사이의 *힘*
 symbol: A
 
 ******* Official Definition(공식 정의)
@@ -170,7 +182,6 @@ symbol: C
 
 **** Prefixes
 
-
 ** Science(과학)
 *** 철학
 **** 과학의 목적은 무엇인가?
@@ -194,6 +205,16 @@ desc: 우주 팽창을 가속화시키는 힘
 desc: 어떤 물체가 밀어지거나, 당겨지는 현상
 unit: Newton(뉴턴)
 
+***** Pressure(압력)
+desc: 임의의 면적에 분자가(Molecules) 충돌로 발생한 힘의 크기
+formula: Pressure = Force(N) / Area(m²)
+
+왜 뾰족한 부분은 다른 물체를 분리할 수 있을까?
+
+1. 특정 크기의 힘으로 분자간의 결합을 분리할 수 있다.
+2. 힘이 가해지는 면적에, 힘이 분포된다
+3. 힘이 가해지는 면적이 작을수록, 힘이 주변으로 분포되지 않아, 물체의 결합부위에 더 큰 힘을 전달 할 수 있다.
+
 ***** Electromagnetic(전자기력)
 desc: The force that
 apply_to: photons
@@ -210,7 +231,51 @@ apply_to: W and Z bosons
 ***** Gravity(중력)
 apply_to: gravitons
 
-**** Fields(필드)
+****** Displacement(변위,變位)
+
+**** Fields(공간)
+***** Vacuum(진공)
+desc: 원자가 존재하지 않는 공간
+
+****** Limitation (한계)
+******* Measurement (측정)
+지금껏 인간은 완벽한 진공을 측정하지 못했다
+압력을 최대한 줄여, 진공에 가까운 환경을 구현할 수 있다.
+
+하지만, 조금의 원자가 남아있고,
+이 원자가 공간 사이를 움직이며, 벽에 충돌(Force)한다
+
+******** 아이디어
+처음부터 오차를 없애려하지 말기
+
+제거하기 쉬운 오차를 의도적으로 만들기
+
+********* 조건
+다른 원자들을 모두 흡수하고 사라지는 물질?
+
+********** 원자는 사라질 수 있는가?
+*********** Conservation of Mass-Energy(질량보존의 법칙)
+질량이 곧 에너지이며, 이는 사라질 수 없다
+
+********** 원자는 뽑아낼 수 있는가?
+*********** Vaccumm Pump(진공 펌프)
+음전하 & 양전하를 이용한다?
+
+******** 철학
+********* 측정하지 못한다고, 존재하지 않는 것인가?
+특정 공간에서 원자를 외부로 뽑아낼수록, 해당 공간의 벽과 원자간의 충돌이 줄어든다 (현상)
+원자를 뽑아낸 공간에 원자가 존재할 수 없다
+
+시간은 연속적이다
+원자를 뽑아내는 과정은, 시간의 흐름에 따라 이루어진다
+원자를 뽑아내는 과정도 연속적이다
+
+********** 원자를 원래 자리에서 뽑아냈을때, 해당 자리를 다른 원자가 곧 바로 채우지 못하는게 가능한가?
+********** 원자의 운동을 멈출 수 있는 방법이 있을까?
+정확하게 동일한 운동량으로
+
+********** 결론
+
 ***** Matters(물질)
 ****** Constituents(구성요소)
 ******* Atoms(원자)
@@ -219,12 +284,99 @@ Subatomic Particles(아원자)
 
 ********* Fermion(페르미온)
 ********** Lepton(렙톤)
-Electron(전자)
-Muon(뮤온)
-Tau(타우 입자)
-Electron Neutrino(전자 중성미자)
-Muon Neutrino(뮤온 중성미자)
-Tau Neutrino(타우 중성미자)
+*********** Electron(전자)
+************ Properties(성질)
+************* Act(행동)
+orbiting enery levels of the nucleus (Composite Fermion)
+핵의 주변 에너지 준위를 선회한다
+
+************* Electric Charge(전하)
+desc:
+You can't see or touch electric charge directly.
+Instead, you observe its effects.
+우리는 전하를 직접 보거나 만질수없다.
+그 대신, 전하의 효과를 관찰한다.
+
+unit: The magnitude of the charge carried by a single electron or proton. (descrete, 이산, 離散)
+
+Like charges repel, and opposite charges attract.
+같은 전하는 밀어내고, 반대 전하는 끌어당긴다.
+
+************** Positive
+************** Negative
+************* Energy Levels / Energy Shell (에너지 준위)
+Energy Level = Energy of Level?
+
+Closest to the nucleus have the lowest energy(start from 1),
+and the levels further away have higher energy.
+
+핵에 가까울수록 에너지가 적고 (1부터 시작),
+핵에서 멀수록 에너지가 많다
+
+************** Transitions between levels (전이)
+Electrons can move or "jump" between these energy levels.
+전자는 이 에너지 준위 사이를 이동하거나, ~뛰어넘을~ 수 있다
+
+*************** What does `Jump` mean?
+This doesn't happen gradually; it's an instantaeous jump from one level to another.
+이 현상은 점진적으로 일어나지 않는다.
+이 현상은 _중간과정없이_ 바로 일어난다
+
+??????????????????????????????
+
+*************** Excitation (자극)
+Moving to a higher level
+높은 위치로 올라감
+
+If an electron absorbs energy from an external source (like heat, light, or an electrical field),
+it can gain enough energy to "jump" to a higher, previously unoccupied energy level further away from the nucleus.
+전자가 외부로 부터 에너지를 얻으면,
+이전에 점유되있지 않은 높은 위치로 jump 할 수 있다.
+
+We say the atom is in an "excited state" after this happens.
+이런 현상이후의 전자를 "들뜬 상태에 있다" 고 부른다.
+
+*************** Relaxation (기분전환)
+Moving to a lower level
+낮은 위치로 내려감
+
+An electron in a higher energy level is not stable in that position indefinitely.
+높은 위치의 전자는 항상 안정적이지는 않다.
+It will ~spontaneously~ "fall" back down to a lower, more stable energy level closer to the necleus.
+더 안정적인 핵에 가까운 위치로 ~저절로~ 떨어지게 된다.
+
+When the electron makes this downward jump, it has to release the excess energy it gained during excitation.
+전자가 낮은 위치로 내려갈때, 자극 상황에서 얻은 과잉 에너지를 방출한다
+
+The releasing energy is often emitted in the form of a =photon= , which is a particle of light.
+방출되는 에너지는 종종 광자 형태로 방출되며, 빛의 입자이다.
+이때 빛의 양은 정확히 두 에너지 준위의 차이 만큼 방출된다
+*************** Ground State(바닥상태)
+저절로 전자를 잃지 않는 상태
+
+가장 안정적이다
+
+************* Occupying Levels (점유 정도)
+Each energy level can hold a specific maximun number of electrons.
+각각의 에너지 준위는, 전자 개수에 대한 특정 임계값을 가진다
+
+This is governed by the rules or quantum mechanics
+이는 양자역학에 기반합니다.
+************* Uncertainty Principle (불확정성의 원리)
+측정하는 행위는, 전자와 상호작용을 통해 이루어지기 때문에
+측정후에 위치가 항상 변화한다
+
+전자의 위치와 운동량를 동시에 측정하기 어렵다
+
+************** Measurement (측정)
+광자를 전자에 쏘아 충돌시켜,
+전자의 위치를 측정
+
+*********** Muon(뮤온)
+*********** Tau(타우 입자)
+*********** Electron Neutrino(전자 중성미자)
+*********** Muon Neutrino(뮤온 중성미자)
+*********** Tau Neutrino(타우 중성미자)
 
 ********** Quark(쿼크)
 Up(업 쿼크)
@@ -241,10 +393,12 @@ Neutrons(중성자)
 
 ********* Boson(보손)
 ********** Gauge Boson(게이지 보손)
-photon(광자)
-gluon(글루온)
-W boson(W보손)
-Z boson(Z보손)
+*********** Photon(광자)
+************ wave-particle duality principle
+
+*********** Gluon(글루온)
+*********** W boson(W보손)
+*********** Z boson(Z보손)
 
 ********** Scalar Boson(스칼라 보손)
 desc: Higgs boson(힉스 보손)
@@ -252,16 +406,34 @@ desc: Higgs boson(힉스 보손)
 ********** Hypothetical Boson(가상 보손)
 desc: graviton(중력자)
 
-******* Molecules(분자)
+****** Molecules(분자)
 desc: 두개 이상의 원자가 합쳐진 화학결합물
 
-****** Properties(성질)
-******* Electric Charge(전하)
-desc:
-You can't see or touch electric charge directly.
-Instead, you observe its effects.
+***** Properties(성질)
+****** Wave(파동)
+of: Medium
+desc: 에너지나 운동량이 한곳에서 또 다른곳으로 전파되는 현상
 
-unit: The magnitude of the charge carried by a single electron or proton. (descrete, 이산, 離散)
+**** Physical Constants(자연상수)
+***** The speed of light in a vacuum(진공에서 빛의 속도)
+symbol: c
 
-******** Positive
-******** Negative
+energy & mass
+
+speed: 299,792,458 m/s
+
+E = mc²
+
+1초에 몇m 이동하는지
+
+***** The gravitational constant(중력 상수)
+symbol: G
+
+***** The Planck constant(플랑크 상수)
+symbol: h
+
+***** The reduced Planck constant(감소된 플랑크 상수)
+symbol: h or h-bar
+
+***** The elementary charge()
+symbol: e
